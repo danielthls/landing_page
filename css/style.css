@@ -113,6 +113,33 @@ button:hover {
 
 }
 
+.third-block {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #e5e7eb;
+
+}
+
+.third-center-block {
+    width: 600px;
+    height: auto;
+    padding: 50px;
+}
+
+.third-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.third-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
 .left-title {
     font-size: 24px;
     color: #f9faf8;
