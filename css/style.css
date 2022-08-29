@@ -18,6 +18,43 @@ div {
     gap: 20px;
 }
 
+.content-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.first-block {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.first-left-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    align-items: flex-start;
+}
+
+.first-right-block {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.big-image {
+    background-color: red;
+    width: 300px;
+    height: auto;
+}
+
+.first-left-text1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
