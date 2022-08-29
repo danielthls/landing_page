@@ -7,6 +7,17 @@ div {
     border: 1px solid black;
 }
 
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    gap: 400px;
+}
+
+.right-link {
+    display: flex;
+    gap: 20px;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -15,6 +26,35 @@ div {
 
 .dark {
    background-color: #1F2937;
+}
+
+button {
+   background-color: #3882f6;
+   color: white;
+   text-align: center;
+   border-radius: 5px;
+   border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882f6;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.second-title {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    
+
 }
 
 .left-title {
