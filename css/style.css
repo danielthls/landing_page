@@ -11,6 +11,7 @@ div {
     display:flex;
     justify-content: space-evenly;
     gap: 400px;
+    padding-top: 15px;
 }
 
 .right-link {
@@ -25,7 +26,8 @@ div {
 
 .first-block {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 130px;
     padding: 50px 0;
 }
 
@@ -39,7 +41,7 @@ div {
 
 .first-right-block {
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
  
 }
@@ -57,13 +59,31 @@ div {
 
 .info-block {
     display:flex;
-    height: 200px;
-    justify-content: space-around;
+    height: 250px;
+    gap: 35px;
+    justify-content: center;
     align-content: center;
+    
+}
+
+.image-block {
+    max-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+    gap: 8px;
+}
+
+.image-block img {
+    border: 1px solid #3882f6;
+    max-height: 100px;
+    border-radius: 10px;
 }
 
 .big-image {
-    background-color: red;
     width: 300px;
     height: auto;
 }
@@ -91,6 +111,12 @@ button {
    border-radius: 5px;
    border: none;
    font-size: 20px;
+   padding: 12px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 button:hover {
@@ -123,9 +149,10 @@ button:hover {
     display: flex;
     width: 700px;
     justify-content:space-between;
-    background-color: #3882f6;
     color: #f9faf8;;
     padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
     
 }
 
